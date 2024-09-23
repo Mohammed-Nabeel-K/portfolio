@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+}
+
+
+
+.fullBody{
+    width: 100%;
+    background: #C0CED1;
+    
+}
+
+.nameDiv{
+    background: #071C34;
+    width: 100%;
+    height: 100vh;
+}
+
+.textName{
+    position: relative;
+    align-content: center;
+    z-index: 1;
+    height: 100%;
+}
+
+#myName{
+    color:#C0CED1;
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
+    animation: shine 3s ease-in-out infinite;
+}
+
+#nabeel{
+    color: #e70655;
+}
+
+.detailsDiv{
+    width: 100%;
+}
+
+.sideBar{
+    justify-content: center;
+    align-items: center;
+    border-right:2px solid #144361;
+    height: 100%;
+    
+
+}
+
+#myPhoto{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    
+    
+}
+
+.headings{
+    color:#071C34;  
+}
+
+.show-animate{
+    animation: aboutDown 2s ease ,aboutShake 3s ease;
+    animation-delay: 0s , 1.5s;
+}
+
+.aboutDiv{
+    height: 100vh;
+}
+
+#aboutText{
+    font-family: "Sofadi One", system-ui;
+    color: #144361;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.edu{
+    font-family: "Sofadi One", system-ui;
+    color: #144361;
+    font-size: large;
+    font-weight: bold;
+}
+.eduh{
+    font-family: "Sofadi One", system-ui;
+    color: #071C34;
+    text-decoration: underline;
+    
+    font-weight: bold;
+}
+
+.items{
+    border: 2px solid #071C34;
+    background-size: 90% auto ;
+    color: #071C34;
+    
+}
+
+.know99{
+    background: linear-gradient(to right, #238823 45%, #C0CED1 45%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    animation: knowAnimation 2s ease-in-out;
+}
+
+.know99:hover{
+    background-position: left bottom;
+    box-shadow: 1px 1px 3px  #000;
+}
+
+.know50{
+    background: linear-gradient(to right, #B6E92A 30%, #C0CED1 30%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    animation: knowAnimation 2s ease-in-out;
+}
+
+.know50:hover{
+    background-position: left bottom;
+    box-shadow: 1px 1px 3px  #000;
+}
+
+.inputChat{
+    background: #C0CED1;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+#chatMeButton{
+    background: #C0CED1;
+}
+
+.chatMe{
+    background: #144361;
+    max-height: 100%;
+}
+
+#chatwith{
+    color: #C0CED1;
+}
+
+.cardDiv{
+    width: 18rem;
+    background-color: #C0CED1 !important;
+}
+
+.textClass{
+    font-family: "Sofadi One", system-ui;
+}
+
+.mohammed{
+    color: #071C34;
+    font-weight: bold;
+}
+
+.navs{
+    font-weight: bold;
+    color: #071C34;
+   
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navs:hover{
+    transform: translateX(20px);
+    
+}
+
+.navs:hover:before{
+    content: "-";
+}
+
+.footer {
+    background-color: #071C34;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #ddd;
+}
+
+
+.animationDiv > div{
+    position: absolute;
+    background: #0e3045;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.animationDiv > div:nth-child(1){
+    bottom:0%;
+    right:60px;
+    height: 20px;
+    width: 20px;
+    
+    animation: fade-up 15s linear infinite;
+}
+.animationDiv > div:nth-child(2){
+    bottom:0%;
+    right:50px;
+    height: 30px;
+    width: 30px;
+    animation: fade-up 14s linear infinite;
+}
+.animationDiv > div:nth-child(3){
+    bottom:0%;
+    right:120px;
+    height: 35px;
+    width: 35px;
+    animation: fade-up 16s linear infinite;
+}
+.animationDiv > div:nth-child(4){
+    bottom:0%;
+    left:900px;
+    height: 60px;
+    width: 60px;
+    animation: fade-up 14s linear infinite;
+}
+.animationDiv > div:nth-child(5){
+    bottom:0%;
+    left:480px;
+    height: 35px;
+    width: 35px;
+    animation: fade-up 17s linear infinite;
+}
+.animationDiv > div:nth-child(6){
+    bottom:0%;
+    left:550px;
+    height: 25px;
+    width: 25px;
+    animation: fade-up 15s linear infinite;
+}
+.animationDiv > div:nth-child(7){
+    bottom:0%;
+    left:140px;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 13s linear infinite;
+}
+.animationDiv > div:nth-child(9){
+    bottom:0%;
+    left:640px;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 18s  linear infinite;
+}
+.animationDiv > div:nth-child(8){
+    bottom:0%;
+    left: 220px;;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 10s linear infinite;
+}
+.animationDiv > div:nth-child(10){
+    bottom:0%;
+    left:100px;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 9s linear infinite;
+}
+.animationDiv > div:nth-child(11){
+    bottom:0%;
+    right:300px;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 9s linear infinite;
+}
+.animationDiv > div:nth-child(12){
+    bottom:0%;
+    right:730px;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 9s linear infinite;
+}
+.animationDiv > div:nth-child(13){
+    bottom:0%;
+    right:490px;
+    height: 50px;
+    width: 50px;
+    animation: fade-up 9s linear infinite;
+}
+.animationDiv > div:nth-child(14){
+    bottom:0%;
+    right:500px;
+    height: 80px;
+    width: 80px;
+    animation: fade-up 15s linear infinite;
+}
+
+
+
+@keyframes fade-up {
+    0% {
+        transform:  translateY(0px);
+        transform:  rotate(0);
+    }
+    5%{
+        transform:  translateY(-50px);
+    }
+    50%{
+        transform:  translateY(-500px);
+        transform:  rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(180deg) ;
+        transform: translateY(-1000px);
+    }
+    
+}
+
+
+@keyframes shine {
+    from {
+      mask-position: 100%;
+    }
+    
+    to {
+      mask-position: 0%;
+    }
+  }
+
+@keyframes aboutShake {
+    0%{
+        transform: rotate(-5deg);
+    }
+    20%{
+        transform: rotate(4deg);
+    }
+    40%{
+        transform: rotate(-3deg);
+    }
+    60%{
+        transform: rotate(2deg);
+    }
+    80%{
+        transform: rotate(-1deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+  }
+
+@keyframes aboutDown {
+    0%{
+        transform: rotate(-5deg);
+        transform: translateY(-20px);
+    }
+    100%{
+        
+        transform: translateY(0px);
+        transform: rotate(-5deg);
+    }
+  }
+
+@keyframes knowAnimation {
+    0%{
+        background-position: right bottom;
+    }
+    50%{
+        background-position: left bottom;
+    }
+    100%{
+        background-position: right bottom;
+    }
+  }
+
+
+
